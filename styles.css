@@ -262,4 +262,62 @@ footer {
     .content-section h2 {
         font-size: 1.8rem;
     }
+    /* =============================== */
+/* ===== Membership Page CSS ===== */
+/* =============================== */
+.member-form {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.member-form .cta-button {
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.member-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 2rem;
+    column-count: 2; /* Creates two columns for the list */
+}
+
+.member-list li {
+    padding: 8px;
+    background-color: #f4f6f9;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+/* Responsive columns for member list */
+@media (max-width: 576px) {
+    .member-list {
+        column-count: 1; /* Single column on very small screens */
+    }
+
 }
